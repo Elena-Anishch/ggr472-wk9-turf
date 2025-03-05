@@ -92,7 +92,7 @@ document.getElementById('buffbutton').addEventListener('click', () => {
 
         //YOUR CODE HERE
         //  --> 1. Create variable for buffer and use turf.buffer function
-        //  --> 2. Use features.push (as in map click event above) to add the buffer feature to the empty featureclass
+        //  --> 2. Use features.push (as in map click event above) to add the buffer feature to the empty buffer feature collection
 
     });
 
