@@ -80,25 +80,12 @@ Using the code above and the Turf documentation (https://turfjs.org/), update th
 
 document.getElementById('buffbutton').addEventListener('click', () => {
 
-    // Create empty featurecollection for buffers
-    buffresult = {
-        "type": "FeatureCollection",
-        "features": []
-    };
 
-    // Loop through each point in geojson and use turf buffer function to create 0.5km buffer of input points
-    // Add buffer polygons to buffresult feature collection
-    geojson.features.forEach((feature) => {
-
-        //YOUR CODE HERE
-        //  --> 1. Create variable for buffer and use turf.buffer function
-        //  --> 2. Use features.push (as in map click event above) to add the buffer feature to the empty buffer feature collection
-
-    });
-
-    //  --> 3. Use addSource mapbox method with buffer geojson variable (buffresult) as data source
-    //  --> 4. Use addLayer mapbox method to show buffers on map. Remember the type is "fill" for polygons
-    //  --> 5. Option to disable buffbutton after use or experiment with removing data source/layer on each click
+    //YOUR CODE HERE
+    //  --> 1. Create variable for buffer and use turf.buffer function
+    //  --> 2. Use addSource mapbox method with buffer geojson variable (buffresult) as data source
+    //  --> 3. Use addLayer mapbox method to show buffers on map. Remember the type is "fill" for polygons
+    //  --> 4. Option to disable buffbutton after use or experiment with updating data source/layer on each click
 
 
 });
