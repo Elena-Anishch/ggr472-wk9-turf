@@ -78,18 +78,13 @@ Using the code above and the Turf documentation (https://turfjs.org/):
 
 
 2. Create a bounding box around points
-//  --> a. Create an empty variable for your bounding box output e.g., let envresult;
-           This should be initialised outside of the event handler
-//  --> b. Add event listener based on click of 'bboxbutton' button
-//  --> c. Use turf.envelope function on musgeojson points
-//  --> d. Store result as a FeatureCollection e.g.,
-            envresult = {
-                "type": "FeatureCollection",
-                "features": [enveloped] // output var from envelope function
-            };
-//  --> e. Refer to envresult as data source in addSource method
-//  --> f. Call new datasource in addLayer method
-           e. amd f. should still be positioned inside the event handler
+//  --> a. Add event listener based on click of 'bboxbutton' button
+//  --> b. Create a variable for your bounding box output e.g., let envresult and assign value using turf.envelope function on musgeojson points
+            E.g., let envresult = turf.[function]([input])
+            Explore functions such as envelope and bbox in the turf documentation
+//  --> c. Refer to envresult as data source in addSource method
+//  --> d. Call new datasource in addLayer method
+           c. and d. should still be positioned inside the event handler
 //      g. Option to disable bboxbutton after use or experiment with removing data source/layer on each click
 
 */
@@ -104,7 +99,6 @@ LOAD DATA TO MAP USING GEOJSON VARIABLE
 /* 
 Uncomment the following code to view the points on the map
 */
-
 
 // map.on('load', () => {
 
