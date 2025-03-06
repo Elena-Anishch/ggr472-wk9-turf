@@ -24,7 +24,7 @@ This code is provided to help with learning the following concepts:
 To work through the exercise:
 
 1. Clone this repository to your local machine
-2. Open `index.html` in a web browser to view the map
+2. Open files in Visual Studio Code on local machine
 
 Part 1: Existing data
 1. Update the public access token in `script-1-existingdata.js`
@@ -37,9 +37,9 @@ Part 1: Existing data
 Part 2: User input data
 1. Update `index.html` by first commenting out previous buttons and JS source and second uncommenting the buffer button and link to `script-2-inputdata.js`
 2. Update the public access token in `script-2-inputdata.js`
-3. Read through the code for creating empty variable to store user input
+3. Read through the code for creating an empty JSON variable to store user input
 4. Notice how map click events are used to create and add new points to the empty variable. Open the map and check this works as expected.
-5. See if you can add your own code to run a turf.buffer function and add the output to an empty feature class when the buffer button is clicked
+5. See if you can add your own code to run a turf.buffer function and visualize the output on the map when the buffer button is clicked
 
 
 ### Answers will be uploaded to this repository after class
