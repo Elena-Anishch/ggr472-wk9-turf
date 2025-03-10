@@ -4,7 +4,7 @@ i) Working with existing data
 --------------------------------------------------------------------*/
 
 // Define access token
-mapboxgl.accessToken = ''; //****ADD YOUR PUBLIC ACCESS TOKEN*****
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWxlbmEtYW5pc2hjaCIsImEiOiJjbTVvN2podncwanJ5Mm1wbnNuczl6c214In0.2ltrEF0cJrURbPWpaKr9bg'; //****ADD YOUR PUBLIC ACCESS TOKEN*****
 
 // Initialize map
 const map = new mapboxgl.Map({
